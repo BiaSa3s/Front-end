@@ -1,23 +1,61 @@
 @charset "UTF-8";
 
 body {    
+    /*Cor de fundo degrade*/
     background-image:linear-gradient(45deg, #7C3BAF, #B2388F,#F7060D,#F64F00,#F6CB03);
+    /*Formatação das letras*/
     font-family:Courier New;
     background-attachment: fixed;
     font-size: 20px;
 }
 h1 {
+    /*Título*/
     text-align:center;
+    /*Formatação das letras*/
     font-family:fantasy;
     color:#092424;
     font-size: 40px;
     
 }
-h2{
-    color: #00ffff;
-    background-color:#000033 ;
-}
 p{
+    /*Corpo do texto*/
     text-align:center;
     font-weight:500;
 }
+
+h2{
+    /*Formatação do subtitulo*/
+    text-align: center;
+    color: #00ffff;
+    background-color:#000033 ;
+}
+/*Formatação do subtitulo*/
+.sub h2{
+    text-align: center;
+    color: #00ffff;
+    background-color:#000033 ;
+}
+/*Centralização do vídeo*/
+.video{
+    display:grid;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.imagem{
+    align-self: center;
+    padding: 40px;
+}
+footer{
+    /*Rodapé*/
+    background-color: #ccc;
+    text-align: center;
+    font-weight:bolder;
+    color:#fa9b5b;
+    border: 4px solid #f718b7;
+    margin: 5;
+    padding: 2px;
+}
+/* CONTATO */
+
