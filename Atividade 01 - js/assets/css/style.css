@@ -67,7 +67,15 @@ footer{
     border-radius: 32px 0 32px 0;
 }
 /* CONTATO */
-
+.center {
+    /*Título*/
+    text-align:center;
+    /*Formatação das letras*/
+    font-family:fantasy;
+    color:#092424;
+    font-size: 40px;
+    
+}
 .formulario{
  /*formatação do formulario*/
  text-align: center;
